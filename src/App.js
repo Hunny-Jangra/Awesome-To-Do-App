@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Calender from "./components/Calender"
+import Popup from "./components/Popup"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      {/* <Calender /> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Calender />}/>
+          <Route path="/add-item" element={<Popup />}/>
+        </Routes>
+      </BrowserRouter>
+    </>
+  )
 }
 
-export default App;
+export default App

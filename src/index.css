@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+.rbc-event-content {
+  border: 2px solid rgb(225, 151, 12);
+  color: rgb(225, 151, 12);
+  font-size: .9rem;
+  font-weight: 700;
+  text-align: justify;
+  height: 2rem;
+  border-radius: .4rem;
+  padding: .2rem;
+}
+
+.rbc-label {
+  display: none;
+}
+
+.rbc-timeslot-group {
+  border: none !important;
+}
+
+.rbc-time-content {
+  border: none !important;
+}
+
+.rbc-event {
+  background-color: transparent !important;
+}
+
+.rbc-selected {
+  background-color: transparent !important;
+}
+

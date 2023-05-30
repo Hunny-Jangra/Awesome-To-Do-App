@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    /* background-image: linear-gradient(to right bottom, rgba(168, 197, 255, 0.746), rgba(8, 21, 123, 0.838)); */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.popup {
+    background-color: rgb(193, 202, 196);
+    background-image: linear-gradient(to right bottom, rgba(215, 236, 237, 0.754), rgba(9, 25, 132, 0.635)),url('../images/todo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4.9rem;
+    color: whitesmoke;
+    text-decoration: underline;
+    height: 74vh;
+    width: 74vw;
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 0rem 1rem 4rem white;
+}
+
+.heading {
+    text-align: center;
+}
+
+.inputs {
+    position: absolute;
+    top: 14rem;
+    right: 20rem;
+    /* background-color: red; */
+    width: 44rem;
+}
+.labels {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.input {
+    padding: .4rem 19rem .4rem 1rem ;
+    outline: none;
+    border: none;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid rgb(39, 218, 39);
+    border-left: 1px solid rgb(39, 218, 39);
+    border-right: 1px solid rgb(39, 218, 39);
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 1rem;
+}
+
+.date_1 {
+    padding: .4rem 29rem .4rem 1rem ;
+    margin-bottom: 2rem ;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(39, 218, 39);
+    border-left: 1px solid rgb(39, 218, 39);
+    border-right: 1px solid rgb(39, 218, 39);
+    
+}
+
+.date_2 {
+    padding: .4rem 29rem .4rem 1rem ;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(39, 218, 39);
+    border-left: 1px solid rgb(39, 218, 39);
+    border-right: 1px solid rgb(39, 218, 39);
+}
+
+.add_btn {
+    position: absolute;
+    top: 27.4rem;
+    right: 24rem;
+    padding: .9rem 17rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .4rem;
+    background-color: #e2f1e2;
+    border: 1px solid #040683;
+    border-radius: .9rem;
+    transition: all .2s linear;
+}
+
+.add_btn:hover {
+    background-image: linear-gradient(to right bottom, rgba(2, 24, 69, 0.846), rgba(105, 125, 255, 0.903));
+    color: white;
+    border: 1px solid whitesmoke;
+    transform: translateY(-.4rem);
+    border-radius: 4rem;
+}

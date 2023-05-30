@@ -1,0 +1,59 @@
+.tick {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgb(6, 194, 6);
+    background-color: transparent;
+}
+
+.delete {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgb(201, 19, 9);
+    background-color: transparent;
+}
+
+.btn {
+    visibility: visible;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+.link {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 9rem;
+}
+
+.links {
+    border: 2px solid blue;
+    padding: .9rem 4rem ;
+    color: blue;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all .2s ease-in;
+}
+
+.links:hover {
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: .4rem;
+}
+
+.links:active {
+    background-color: rgb(28, 28, 255);
+}
+
+.linking {
+    position: absolute;
+    top: 1rem;
+}
+
+.btnGreen {
+    background-color: green;
+}

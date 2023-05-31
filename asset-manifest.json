@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Awesome-To-Do-App/static/css/main.cfe42724.css",
+    "main.js": "/Awesome-To-Do-App/static/js/main.5ed24197.js",
+    "static/js/787.16f177e3.chunk.js": "/Awesome-To-Do-App/static/js/787.16f177e3.chunk.js",
+    "static/media/todo.jpg": "/Awesome-To-Do-App/static/media/todo.886760523b873bcad3a0.jpg",
+    "index.html": "/Awesome-To-Do-App/index.html",
+    "main.cfe42724.css.map": "/Awesome-To-Do-App/static/css/main.cfe42724.css.map",
+    "main.5ed24197.js.map": "/Awesome-To-Do-App/static/js/main.5ed24197.js.map",
+    "787.16f177e3.chunk.js.map": "/Awesome-To-Do-App/static/js/787.16f177e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfe42724.css",
+    "static/js/main.5ed24197.js"
+  ]
+}
